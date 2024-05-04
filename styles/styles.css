@@ -1,6 +1,6 @@
 nav {
     background-color: steelblue;
-    padding: 10 px;
+    padding: 10px;
 }
 
 nav a {
@@ -17,7 +17,7 @@ img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
-    padding: 2 px;
+    padding: 2px;
     box-shadow: 0 0 30px gray;
 }
 
@@ -33,7 +33,7 @@ aside {
     width: 20rem;
     margin: 1rem;
     border: solid rgba(0,0,0,0.2); /* 1 */
-    padding: 1 rem;
+    padding: 1rem;
     background-color: #eee;
     color: #333;
     text-align: center;
