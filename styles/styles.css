@@ -1,6 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 15px;
+    font-family: Roboto;
+
+}
+
 nav {
     background-color: steelblue;
-    padding: 10px;
+    padding: 20px;
 }
 
 nav a {
@@ -11,32 +23,31 @@ nav a {
 
 h1 {
     color: steelblue;
+    padding: 5rem;
 }
 
-img {
+main img {
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    float: right;
+    margin: 0 0 1rem 1rem ;
 }
 
 p {
-    padding: 10px;
+    margin: 1rem;
 }
 
 main {
-    max-width: 840px;
+    max-width: 750px;
 }
 
 aside {
-    width: 20rem;
-    margin: 1rem;
-    border: solid rgba(0,0,0,0.2); /* 1 */
-    padding: 1rem;
-    background-color: #eee;
-    color: #333;
+    width: 20em;
     text-align: center;
+    position: relative;
 }
 
 aside img {
@@ -44,15 +55,31 @@ aside img {
     height: auto;
 }
 
-main img {
-    width: 150px;
-    height: auto;
+aside h2 {
+    position: absolute;
+    top: auto;
+    left: 95px;
 }
-
-p {padding: 0;}
 
 footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,.1);
+    padding: 1rem;
+    background-color: #ddd;
+    color: #000;
+}
+
+aside {
+    width: 20em;
+    text-align: center;
+}
+
+.indent {
+    padding-left: 2rem;
 }
