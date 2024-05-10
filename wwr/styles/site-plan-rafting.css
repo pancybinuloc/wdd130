@@ -1,7 +1,6 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poetsen+One&display=swap');
 body {
-    font-family: var(--paragraph-font);
+    font-family: Arial, Helvetica, sans-serif;
     max-width: 960px;
     padding: 20px;
 }
@@ -12,8 +11,8 @@ body {
     --accent1-color: #a7c957;
     --accent2-color: #f2e8cf;
 
-    --heading-font: '_____', Serif;
-    --paragraph-font: '_____', Serif;
+    --heading-font: Roboto;
+    --paragraph-font: 'Tahoma', Bradley;
 
     --nav-background-color: #bc4749;
     --nav-link-color: #A7C957;
@@ -22,19 +21,19 @@ body {
 }
 
 body {
-    font-size: var(--paragraph-font);
+    font-family: var(--paragraph-font) ;
     max-width: 960px;
     padding: 20px;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family:var(--heading-font);
-    color: var(--primary-color)
+    font-family: arial, Verdana,Tahoma, sans-serif;
+    color: #386641;
 }
 
 header {
     padding: 20px;
-    background-color: var(--accent1-color);
+    background-color: #a7c957;
 }
 
 p {
@@ -42,23 +41,23 @@ p {
 }
 
 nav {
-    background-color: var(--nav-background-color);
+    background-color: #A7C957;
     font-size: 1.2rem;
     display: flex;
 }
 
 nav a {
     display: block;
-    color: var(--nav-link-color);
+    color: #bc4749;
     text-decoration: none;
     padding: 1rem;
 }
 
 nav a:link, nav a:visited {
-    color: var(--nav-link-color);
+    color: #386641;
 }
 
 nav a:hover {
-    color: var(--nav-link-color);
-    background-color: var(--nav-hover-background-color);
+    color: #386641;
+    background-color: #a7c957;
 }
